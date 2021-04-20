@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Ubuntu", sans-serif;
+}
+
+// Global Element styling
+
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  color: var(--clr-dark-green);
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+}
+
+/* Button Styling */
+strong,
+.btn {
+  font-weight: 600;
+  outline: none;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 1.5rem;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  padding: 1em 4.5em;
+  border-radius: 5px;
+  background: var(--clr-red-orange);
+  background: linear-gradient(
+    90deg,
+    var(--clr-red-orange) 51%,
+    var(--clr-yellow-orange) 90%
+  );
+
+  &:hover,
+  &:focus {
+    filter: invert(100%);
+  }
+}
+
+// Global general styling
+
+.hidden {
+  display: none;
+}
+
+.img--tall {
+  grid-row: span 2;
+}
+
+.img--wide {
+  grid-column: span 2;
+}
+
+.img--large {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.section-intro {
+  max-width: 80ch;
+  margin: 0 auto;
+  text-align: left;
+  color: var(--clr-dark-grey);
+}
+
+// Decorative Element
+
+.gradient-border {
+  background: var(--clr-red-orange);
+  background: linear-gradient(
+    90deg,
+    var(--clr-red-orange) 51%,
+    var(--clr-yellow-orange) 90%
+  );
+  position: relative;
+  height: 6px;
+  width: 50%;
+  line-height: 2.15rem;
+}

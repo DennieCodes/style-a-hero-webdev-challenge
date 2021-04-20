@@ -1,0 +1,131 @@
+/* Media Queries */
+
+/* Mobile sizing */
+@media (max-width: 320px) {
+  .hero__info {
+    width: 90%;
+  }
+
+  .hero-title {
+    line-height: 1.3em;
+  }
+}
+
+/* Tablet sizing */
+@media (max-width: 481px) {
+  .hero__info {
+    width: 85%;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+  }
+}
+
+/* Laptop / small screen sizing */
+/* ------------------------------- */
+/* Begin 2 column layout */
+
+@media (min-width: 769px) {
+  .hero-title {
+    font-size: 2.25rem;
+  }
+
+  .hero p {
+    font-size: 1.25rem;
+  }
+
+  .gradient-border {
+    width: 40%;
+    line-height: 2.5rem;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3em;
+  }
+
+  .card {
+    margin-bottom: 0;
+  }
+
+  .card header {
+    min-height: 5rem;
+  }
+
+  .sign-up h2 {
+    font-size: 1.75rem;
+  }
+
+  .sign-up p {
+    font-size: 1rem;
+    margin-bottom: 0.25em;
+  }
+}
+
+/* Desktop sizing */
+@media (min-width: 1025px) {
+  .hero-title {
+    font-size: 2.75rem;
+  }
+
+  .hero p {
+    font-size: 1.3rem;
+  }
+
+  .gradient-border {
+    width: 30%;
+    line-height: 2.5rem;
+  }
+
+  .sign-up input {
+    display: inline;
+  }
+}
+
+/* Extra large screen sizing */
+@media (min-width: 1200px) {
+  .gradient-border {
+    width: 25%;
+  }
+
+  .hero__info {
+    width: 85%;
+  }
+
+  .curriculum {
+    margin: 5em auto;
+  }
+
+  .curriculum h3 {
+    font-size: 1.1rem;
+  }
+
+  .curriculum h4 {
+    font-size: 1rem;
+  }
+  /* Begin 4 column layout */
+  .card-container {
+    margin: 3em 0 0 0;
+    padding: 0;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5em;
+  }
+
+  .gallery-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .card {
+    padding: 1em;
+  }
+
+  .card__p {
+    padding: 1em 0;
+  }
+
+  .section-intro {
+    max-width: 100ch;
+  }
+}

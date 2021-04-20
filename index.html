@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Photographer Course</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+
+  <body>
+    <section class="hero">
+      <div class="hero__info">
+        <p class="gradient-border">Pro course</p>
+        <h1 class="hero-title">
+          Become a<strong> professional photographer </strong>in six weeks
+        </h1>
+        <a aria-label="Sign up button" class="btn" href="#sign-up--form"
+          >Sign up</a
+        >
+        <p>Course starting soon</p>
+      </div>
+    </section>
+
+    <section class="curriculum">
+      <h2>Our curriculum</h2>
+
+      <p class="section-intro">
+        Our program will take your photography skills to a professional level
+        over the course of an intense six week program that ranges from
+        mastering exposure to developing an attractive and marketable portfolio.
+      </p>
+
+      <div class="card-container">
+        <div class="card">
+          <header>
+            <h4>Week 1</h4>
+            <h3>Master Exposure</h3>
+          </header>
+
+          <img
+            class="card__img"
+            src="./images/Exposure.jpeg"
+            alt="camera pointing over bay during sunset"
+          />
+          <p class="card__p">
+            Use aperture, shutter speed and ISO to master exposure in any and
+            all shooting situations
+          </p>
+        </div>
+
+        <div class="card">
+          <header>
+            <h4>Week 2</h4>
+            <h3>Ambient and Supplemental Lighting</h3>
+          </header>
+
+          <img
+            class="card__img"
+            src="./images/Event_photographer.jpeg"
+            alt="photographer with bridal couple."
+          />
+          <p class="card__p">
+            Use natural and artificial lighting to create dramatic contrasts and
+            shadows in your photos
+          </p>
+        </div>
+
+        <div class="card">
+          <header>
+            <h4>Week 3-4</h4>
+            <h3>Composition</h3>
+          </header>
+
+          <img
+            class="card__img"
+            src="./images/Provence.jpeg"
+            alt="woman in lavender fields of Provence, France."
+          />
+          <p class="card__p">
+            Learn to position your camera or subject to create visually
+            interesting and engaging photos
+          </p>
+        </div>
+
+        <div class="card">
+          <header>
+            <h4>Week 5-6</h4>
+            <h3>Portfolio Development and Promotion</h3>
+          </header>
+
+          <img
+            class="card__img"
+            src="./images/Portfolio.jpeg"
+            alt="woman selecting photos on her laptop"
+          />
+          <p class="card__p">
+            Showcase the best photographs in your portfolio and promote your
+            talents
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h2>Student Gallery</h2>
+
+      <p class="section-intro">
+        Here is a small selection of photographs from our students. Learn to
+        take beautiful images like these and more in our course.
+      </p>
+
+      <div class="gallery-container">
+        <div class="img--tall">
+          <img
+            class="gallery-img"
+            src="./images/Composition.jpeg"
+            alt="Camera focused on a sunset"
+          />
+        </div>
+
+        <div class="img--large">
+          <img
+            class="gallery-img"
+            src="./images/Indian_bride.jpg"
+            alt="Bride and bridesmaid"
+          />
+        </div>
+
+        <div>
+          <img
+            class="gallery-img"
+            src="./images/Holi.jpg"
+            alt="People celebrating the Holi festival"
+          />
+        </div>
+
+        <div class="img--tall">
+          <img
+            class="gallery-img"
+            src="./images/Puffins.jpg"
+            alt="Puffins in Iceland"
+          />
+        </div>
+
+        <div>
+          <img
+            class="gallery-img"
+            src="./images/Hawaiian_Mountain.jpg"
+            alt="Man on a ridge overlooking Hawaiian mountins during sunset"
+          />
+        </div>
+
+        <div>
+          <img
+            class="gallery-img"
+            src="./images/Portrait.jpg"
+            alt="Close up portrait"
+          />
+        </div>
+
+        <div class="img--wide">
+          <img
+            class="gallery-img"
+            src="./images/Surf.jpg"
+            alt="Man surfing a wave"
+          />
+        </div>
+
+        <div class="img--wide">
+          <img
+            class="gallery-img"
+            src="./images/Peregrine_Falcon.jpg"
+            alt="Peregrine Falcon flying towards handler"
+          />
+        </div>
+
+        <div>
+          <img
+            class="gallery-img"
+            src="./images/Grand_Canyon.jpg"
+            alt="Sunset over the Grand Canyon"
+          />
+        </div>
+
+        <div class="img--large">
+          <img
+            class="gallery-img"
+            src="./images/Himalaya.jpg"
+            alt="Pack Mules with Himalayas in the background"
+          />
+        </div>
+
+        <div>
+          <img
+            class="gallery-img"
+            src="./images/Venice.jpg"
+            alt="Sunset over grand canal Venice, Italy"
+          />
+        </div>
+
+        <div class="img--tall">
+          <img
+            class="gallery-img"
+            src="./images/Flamenco.jpg"
+            alt="Woman in Flamenco pose and dress"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="sign-up" class="sign-up">
+      <form id="sign-up--form" class="sign-up__form">
+        <h2>Sign Up</h2>
+        <p>Sign up with your email address to receive news and updates</p>
+
+        <p id="sign-up--email-alert" class="sign-up--alert hidden">
+          Please enter a valid email address
+        </p>
+        <input
+          aria-label="Email input for signing up"
+          class="sign-up__input"
+          type="email"
+          id="email"
+          placeholder="Email Address"
+        />
+
+        <button
+          aria-label="Sign up button"
+          class="sign-up__button"
+          id="sign-up--submit"
+          type="submit"
+        >
+          Sign Up
+        </button>
+        <p id="sign-up--success" class="sign-up--alert hidden">
+          Thank you. You have successfully signed up. We will keep you posted
+          about our photography course.
+        </p>
+      </form>
+    </section>
+
+    <script src="./scripts/index.js"></script>
+    <script id="__bs_script__">
+      //<![CDATA[
+      document.write(
+        "<script async src='http://HOST:3001/browser-sync/browser-sync-client.js?v=2.26.14'><\/script>".replace(
+          "HOST",
+          location.hostname
+        )
+      );
+      //]]>
+    </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  color: white;
+
+  &::before {
+    content: "";
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/Photographer.png");
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+    z-index: -1;
+  }
+
+  &__info {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  & p {
+    font-size: 1.25rem;
+    letter-spacing: 0.025rem;
+    margin-bottom: 1em;
+    text-shadow: 1px 1px 1px var(--clr-medium-grey);
+  }
+
+  &-title {
+    text-shadow: 1px 1px 1px var(--clr-medium-grey);
+    font-size: 2.25rem;
+    font-weight: 400;
+    letter-spacing: 0.025rem;
+    line-height: 3rem;
+  }
+}

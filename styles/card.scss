@@ -1,0 +1,35 @@
+.card-container {
+  display: grid;
+  justify-content: space-between;
+  grid-gap: 2.5em;
+  margin: 3em;
+}
+
+.card {
+  box-shadow: 3px 3px 15px -15px rgba(112, 112, 112, 0.32),
+    1px 1px 5px -2px var(--clr-medium-grey);
+  padding: 1.5em;
+  padding-top: 0;
+  border-radius: 4px;
+  display: inline-block;
+
+  & header {
+    margin: 0.75em 0;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+  }
+
+  &__p {
+    padding: 1em;
+    padding-bottom: 0;
+    font-size: 0.85rem;
+    line-height: 1.15rem;
+    text-align: left;
+    color: var(--clr-dark-grey);
+  }
+}
