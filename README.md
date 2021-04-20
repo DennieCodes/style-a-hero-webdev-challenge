@@ -6,6 +6,8 @@ The challenge was to recreate the Hero section as below:
 
 ![Screenshot of Hero section](images/Hero_screenshot.png)
 
+Here is a live link to my project hosted on Vercel: [Style a Hero](https://style-a-hero-webdev-challenge.vercel.app/)
+
 I decided to recreate the Hero image as is but to expound upon the theme and create a home page for this fictious photography course
 with details about the curriculum, a student gallery and a sign up section.
 
